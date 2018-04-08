@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>فرم ثبت نام</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/fonts.css" type="text/css" rel="stylesheet" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+
+
+  <div class="container">
+    <div class="row">
+      <form class="col s12" action="" method="get">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" name="firstName" type="text" class="validate">
+            <label for="first_name">نام شما</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" name="lastName" type="text" class="validate">
+            <label for="last_name">نام خانوادگی</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input disabled id="disabled" type="text" class="validate">
+            <label for="disabled">غیرفعال</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">رمز عبور</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate" min="5" max="100">
+            <label for="email">رایانامه</label>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">textsms</i>
+                <input type="text" id="autocomplete-input" class="autocomplete">
+                <label for="autocomplete-input">حدس کلمه</label>
+              </div>
+            </div>
+          </div>
+        </div>
+              
+
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
+            <label for="textarea1">بیوگرافی</label>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="input-field col s12">
+            <select name="test" id="">
+              <option value="1" class="value">متن یک</option>
+              <option value="2" class="value">متن دوم</option>
+              <option value="3" class="value">متن سوم</option>
+              <option value="4" class="value">متن جهارم</option>
+            </select>
+          </div>
+        </div>
+<!-- 
+        <dir class="row">
+          <div class="input-field col s12">
+            
+            <div class="switch">
+              <label>
+                Off
+                <input type="checkbox">
+                <span class="lever"></span>
+                On
+              </label>
+            </div>
+          </div>
+        </dir> -->
+
+        <div class="row">
+          <div class="input-field col s12">
+
+            <input type="checkbox" name="acceptLaws" id="checkboxid">
+            <label for="checkboxid"></label>
+            <span class="modal-trigger waves-effect waves-light" href="#modal1">قوانین سایت</span> را مطالعه کرده ام و قبول کرده ام .
+
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="input-field col s12">
+
+            <input type="radio" name="acceptLaws" id="radio1">
+            <label for="radio1"> انتخاب اول</label>
+            
+            
+            <input type="radio" name="acceptLaws" id="radio2">
+            <label for="radio2"> انتخاب دوم</label>
+
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input type="submit" value="ثبت نام" class="btn waves-effect" />
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    
+
+
+
+
+ 
+          
+
+
+
+  
+  </div>
+
+
+ <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>قوانین</h4>
+      <p> لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند. توسط فرم زیر می توانید متن ساختگی مورد نظر خود را در واحدهای کاراکتر، کلمه و پاراگراف تولید کنید، سپس آنرا کپی کنید و در کار مورد نظر خود قرار دهید. زبان مورد نظر خود را انتخاب کنید ... تعداد را انتخاب کنید تولیدکننده لورم ایپسوم فارسی :: سرویسی رایگان از Webtaz | تبليغات در سايت
+
+      لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">تایید</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">رد</a>
+    </div>
+  </div>
+
+
+
+  <!--  Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+
+  
+
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
